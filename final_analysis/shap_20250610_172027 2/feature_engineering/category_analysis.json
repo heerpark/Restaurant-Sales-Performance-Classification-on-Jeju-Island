@@ -1,0 +1,327 @@
+{
+  "xgb_tuned": {
+    "Original": {
+      "total_importance": 0.2744266986846924,
+      "avg_importance": 0.1372133493423462,
+      "count": 2,
+      "top_feature": "LOCAL_UE_CNT_RAT",
+      "top_importance": 0.14070546627044678
+    },
+    "Interaction": {
+      "total_importance": 1.2723338018777213,
+      "avg_importance": 0.009940107827169697,
+      "count": 128,
+      "top_feature": "LOCAL_UE_CNT_RAT_young_ratio_interact",
+      "top_importance": 0.14055608212947845
+    },
+    "Aggregated": {
+      "total_importance": 0.10275698080658913,
+      "avg_importance": 0.020551396161317827,
+      "count": 5,
+      "top_feature": "distance_from_center",
+      "top_importance": 0.09397542476654053
+    },
+    "Ratio": {
+      "total_importance": 0.33994309153058566,
+      "avg_importance": 0.04856329879008366,
+      "count": 7,
+      "top_feature": "young_to_local_ratio",
+      "top_importance": 0.11394677311182022
+    },
+    "Binned": {
+      "total_importance": 0.014049075711227488,
+      "avg_importance": 0.0011707563092689572,
+      "count": 12,
+      "top_feature": "LOCAL_UE_CNT_RAT_mid",
+      "top_importance": 0.008552396669983864
+    },
+    "Time": {
+      "total_importance": 0.10621899215038866,
+      "avg_importance": 0.026554748037597165,
+      "count": 4,
+      "top_feature": "time_type_\uc624\ud6c4",
+      "top_importance": 0.05745392665266991
+    },
+    "Food": {
+      "total_importance": 0.06533302705793176,
+      "avg_importance": 0.004355535137195451,
+      "count": 15,
+      "top_feature": "MCT_TYPE_\uc721\ub958\uad6c\uc774\uace0\uae30",
+      "top_importance": 0.0160487350076437
+    },
+    "Gender": {
+      "total_importance": 0.014554270543158054,
+      "avg_importance": 0.007277135271579027,
+      "count": 2,
+      "top_feature": "gender_target_male",
+      "top_importance": 0.010218574665486813
+    },
+    "Location": {
+      "total_importance": 0.30441372096538544,
+      "avg_importance": 0.10147124032179515,
+      "count": 3,
+      "top_feature": "Longitude",
+      "top_importance": 0.17372067272663116
+    }
+  },
+  "lgb_tuned": {
+    "Original": {
+      "total_importance": 0.3160017800612499,
+      "avg_importance": 0.15800089003062495,
+      "count": 2,
+      "top_feature": "day_type_encoded",
+      "top_importance": 0.15986524141778108
+    },
+    "Interaction": {
+      "total_importance": 1.497190673156191,
+      "avg_importance": 0.011696802134032742,
+      "count": 128,
+      "top_feature": "LOCAL_UE_CNT_RAT_young_ratio_interact",
+      "top_importance": 0.14243518915300385
+    },
+    "Aggregated": {
+      "total_importance": 0.17559987423787682,
+      "avg_importance": 0.03511997484757536,
+      "count": 5,
+      "top_feature": "distance_from_center",
+      "top_importance": 0.11427744639404064
+    },
+    "Ratio": {
+      "total_importance": 0.350580333681385,
+      "avg_importance": 0.05008290481162643,
+      "count": 7,
+      "top_feature": "lat_lng_ratio",
+      "top_importance": 0.12437898693539798
+    },
+    "Binned": {
+      "total_importance": 0.008567193030365922,
+      "avg_importance": 0.0007139327525304936,
+      "count": 12,
+      "top_feature": "LOCAL_UE_CNT_RAT_mid",
+      "top_importance": 0.005789715000429288
+    },
+    "Time": {
+      "total_importance": 0.12722584521061436,
+      "avg_importance": 0.03180646130265359,
+      "count": 4,
+      "top_feature": "time_type_\uc624\ud6c4",
+      "top_importance": 0.06416566571820997
+    },
+    "Food": {
+      "total_importance": 0.03931811423367384,
+      "avg_importance": 0.002621207615578256,
+      "count": 15,
+      "top_feature": "MCT_TYPE_\uc911\uc2dd",
+      "top_importance": 0.00900971172078241
+    },
+    "Gender": {
+      "total_importance": 0.013528662645750719,
+      "avg_importance": 0.006764331322875359,
+      "count": 2,
+      "top_feature": "gender_target_male",
+      "top_importance": 0.009892516075987724
+    },
+    "Location": {
+      "total_importance": 0.3447050584693614,
+      "avg_importance": 0.1149016861564538,
+      "count": 3,
+      "top_feature": "Longitude",
+      "top_importance": 0.20518204204768584
+    }
+  },
+  "catboost": {
+    "Original": {
+      "total_importance": 0.17597216621245643,
+      "avg_importance": 0.08798608310622821,
+      "count": 2,
+      "top_feature": "day_type_encoded",
+      "top_importance": 0.14488784178601932
+    },
+    "Interaction": {
+      "total_importance": 0.5114826993650148,
+      "avg_importance": 0.003995958588789178,
+      "count": 128,
+      "top_feature": "LOCAL_UE_CNT_RAT_Longitude_interact",
+      "top_importance": 0.045666815049720214
+    },
+    "Aggregated": {
+      "total_importance": 0.04919745598805957,
+      "avg_importance": 0.009839491197611915,
+      "count": 5,
+      "top_feature": "distance_from_center",
+      "top_importance": 0.039166155248857165
+    },
+    "Ratio": {
+      "total_importance": 0.22357435119462107,
+      "avg_importance": 0.03193919302780301,
+      "count": 7,
+      "top_feature": "young_to_local_ratio",
+      "top_importance": 0.07331137873086532
+    },
+    "Binned": {
+      "total_importance": 0.08712136311917143,
+      "avg_importance": 0.007260113593264286,
+      "count": 12,
+      "top_feature": "LOCAL_UE_CNT_RAT_binned",
+      "top_importance": 0.037385365367068095
+    },
+    "Time": {
+      "total_importance": 0.1295521116800565,
+      "avg_importance": 0.03238802792001413,
+      "count": 4,
+      "top_feature": "time_type_\uc624\ud6c4",
+      "top_importance": 0.079869494490482
+    },
+    "Food": {
+      "total_importance": 0.04717625468971016,
+      "avg_importance": 0.0031450836459806773,
+      "count": 15,
+      "top_feature": "MCT_TYPE_\uae30\ud0c0\ub2e8\ud488\ud2b9\uc218",
+      "top_importance": 0.011903751794127303
+    },
+    "Gender": {
+      "total_importance": 0.007178829195180043,
+      "avg_importance": 0.0035894145975900217,
+      "count": 2,
+      "top_feature": "gender_target_male",
+      "top_importance": 0.006115917198136615
+    },
+    "Location": {
+      "total_importance": 0.15519136612733275,
+      "avg_importance": 0.051730455375777584,
+      "count": 3,
+      "top_feature": "Longitude",
+      "top_importance": 0.08418375465430171
+    }
+  },
+  "rf_tuned": {
+    "Original": {
+      "total_importance": 0.007855611412213309,
+      "avg_importance": 0.003927805706106654,
+      "count": 2,
+      "top_feature": "day_type_encoded",
+      "top_importance": 0.004377162068831684
+    },
+    "Interaction": {
+      "total_importance": 0.054274679690238845,
+      "avg_importance": 0.000424020935079991,
+      "count": 128,
+      "top_feature": "LOCAL_UE_CNT_RAT_Longitude_interact",
+      "top_importance": 0.004076317006309135
+    },
+    "Aggregated": {
+      "total_importance": 0.0036330837296521,
+      "avg_importance": 0.00072661674593042,
+      "count": 5,
+      "top_feature": "distance_from_center",
+      "top_importance": 0.002413171686106831
+    },
+    "Ratio": {
+      "total_importance": 0.008340891431380193,
+      "avg_importance": 0.0011915559187685991,
+      "count": 7,
+      "top_feature": "young_ratio",
+      "top_importance": 0.002555336426208934
+    },
+    "Binned": {
+      "total_importance": 0.006538370525056683,
+      "avg_importance": 0.0005448642104213902,
+      "count": 12,
+      "top_feature": "LOCAL_UE_CNT_RAT_low",
+      "top_importance": 0.002404069962731617
+    },
+    "Time": {
+      "total_importance": 0.0035755501612539857,
+      "avg_importance": 0.0008938875403134964,
+      "count": 4,
+      "top_feature": "time_type_\uc624\ud6c4",
+      "top_importance": 0.0017555524113359695
+    },
+    "Food": {
+      "total_importance": 0.009266352935275978,
+      "avg_importance": 0.0006177568623517319,
+      "count": 15,
+      "top_feature": "MCT_TYPE_\uce74\ud398\ub514\uc800\ud2b8",
+      "top_importance": 0.0020880472022294593
+    },
+    "Gender": {
+      "total_importance": 0.0007151566156195624,
+      "avg_importance": 0.0003575783078097812,
+      "count": 2,
+      "top_feature": "gender_target_male",
+      "top_importance": 0.0005436931998866703
+    },
+    "Location": {
+      "total_importance": 0.00604453600463692,
+      "avg_importance": 0.0020148453348789734,
+      "count": 3,
+      "top_feature": "Longitude",
+      "top_importance": 0.00383235002738945
+    }
+  },
+  "extra_trees": {
+    "Original": {
+      "total_importance": 0.008576217600574896,
+      "avg_importance": 0.004288108800287448,
+      "count": 2,
+      "top_feature": "day_type_encoded",
+      "top_importance": 0.006051469978788395
+    },
+    "Interaction": {
+      "total_importance": 0.04967385408779221,
+      "avg_importance": 0.0003880769850608766,
+      "count": 128,
+      "top_feature": "Longitude_MCT_TYPE_\uce74\ud398\ub514\uc800\ud2b8_interact",
+      "top_importance": 0.003203691703442078
+    },
+    "Aggregated": {
+      "total_importance": 0.0030022641797426896,
+      "avg_importance": 0.000600452835948538,
+      "count": 5,
+      "top_feature": "gender_specialization",
+      "top_importance": 0.001990470345344286
+    },
+    "Ratio": {
+      "total_importance": 0.009798271020786477,
+      "avg_importance": 0.0013997530029694967,
+      "count": 7,
+      "top_feature": "lat_lng_ratio",
+      "top_importance": 0.0025138564713745554
+    },
+    "Binned": {
+      "total_importance": 0.011702440703877248,
+      "avg_importance": 0.0009752033919897706,
+      "count": 12,
+      "top_feature": "LOCAL_UE_CNT_RAT_low",
+      "top_importance": 0.004266180185356841
+    },
+    "Time": {
+      "total_importance": 0.005608920627041486,
+      "avg_importance": 0.0014022301567603716,
+      "count": 4,
+      "top_feature": "time_type_\uc624\ud6c4",
+      "top_importance": 0.002715944106226742
+    },
+    "Food": {
+      "total_importance": 0.012681266081441548,
+      "avg_importance": 0.0008454177387627698,
+      "count": 15,
+      "top_feature": "MCT_TYPE_\uae30\ud0c0\ub2e8\ud488\ud2b9\uc218",
+      "top_importance": 0.0026996704159880616
+    },
+    "Gender": {
+      "total_importance": 0.0013364241630565194,
+      "avg_importance": 0.0006682120815282597,
+      "count": 2,
+      "top_feature": "gender_target_male",
+      "top_importance": 0.000912670507077001
+    },
+    "Location": {
+      "total_importance": 0.0016735552214494902,
+      "avg_importance": 0.0005578517404831634,
+      "count": 3,
+      "top_feature": "Latitude",
+      "top_importance": 0.0008860783207879767
+    }
+  }
+}
